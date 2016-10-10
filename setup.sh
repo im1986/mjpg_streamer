@@ -1,2 +1,2 @@
-sudo chomd 755 *.so
-sudo chomd 755 mjpg_streamer
+sudo chmod 755 *.so
+sudo chmod 755 mjpg_streamer
