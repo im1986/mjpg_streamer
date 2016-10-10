@@ -6,6 +6,11 @@ Currently no issues are known, but since this software is quite young and not us
 
 Usage
 =====
+sudo git clone https://github.com/im1986/mjpg_streamer.git
+
+cd mjpg_streamer
+
+sh setup.sh
 
 When launching mjpg-streamer, you specify one or more input plugins and an output plugin. For example, to stream a V4L compatible webcam via an HTTP server (the most common use case), you
 can do something like this:
