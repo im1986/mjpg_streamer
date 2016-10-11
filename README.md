@@ -16,11 +16,11 @@ Setup mjpg_streamer
 
 Stop mjpg_streamer
 
-    /etc/init.d/webcam stop
+    sudo /etc/init.d/webcam stop
 
 Start automatically
 
-    update-rc.d webcam defaults
+    sudo update-rc.d webcam defaults
     
 View Address
 
