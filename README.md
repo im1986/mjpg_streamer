@@ -24,7 +24,7 @@ Start automatically
     
 View Address
 
-    http://<your ipaddress>:8080
+    http://ip:8080
 
 When launching mjpg-streamer, you specify one or more input plugins and an output plugin. For example, to stream a V4L compatible webcam via an HTTP server (the most common use case), you
 can do something like this:
