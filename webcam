@@ -12,7 +12,7 @@
 case "$1" in
   start)
     echo "Starting webcam script"
-    export LD_LIBRARY_PATH="/home/pi/mjpg_streamer/mjpg_streamer"
+    export LD_LIBRARY_PATH="/home/pi/mjpg_streamer"
     /home/pi/mjpg_streamer/mjpg_streamer -i "input_uvc.so -r 640x480 -f 20 -n" -o "output_http.so -p 8080 -w /home/pi/mjpg_streamer/www" &
     ;;
   stop)
